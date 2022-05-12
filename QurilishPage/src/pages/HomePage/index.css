@@ -1,0 +1,22 @@
+.card_container {
+	padding: 20px;
+	display: grid;
+
+	/* grid-template-columns: repeat(3, 65%); */
+	/* grid-row-gap: 16px;
+    grid-column-gap: 16px; */
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.home {
+	background-image: url("../../assets//img/carousel-1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,15 @@
+.img {
+	width: 100%;
+	transition: 0.3s ease-in-out;
+	transform: scale(1);
+}
+.img:hover {
+	transition: 0.3s;
+	transform: scale(1.2);
+
+	/* border: 1px solid #000; */
+}
+figure {
+	overflow: hidden;
+	/* background: rgba(1, 4, 13, 0.893);; */
+}

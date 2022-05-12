@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#text {
+	margin: 0 5px;
+}
+#text0 {
+	margin: 0 5px;
+	color: #fdbe33;
+}
+#text0:hover {
+	color: white;
+}
+#text:active {
+	color: #ffbf00;
+}
+#text:hover {
+	color: #ffbf00;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	margin: 0 6%;
+	padding: 2%;
+	align-items: center;
+	transition: transform 2s;
+	transition: 0.3s ease-in-out;
+	transform: scale(1);
+}
+.navbar.activ {
+	transition: 0.3s ease-in-out;
+	transform: scale(1);
+
+	position: fixed;
+	margin: 0;
+	width: 100vw;
+	top: 0;
+	/* transition: margin-top 2s; */
+	/* transform: scaleX(1); */
+}
